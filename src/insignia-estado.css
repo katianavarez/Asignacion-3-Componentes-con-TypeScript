@@ -1,0 +1,25 @@
+:host {
+  display: inline-block;
+}
+
+span {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 1000px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.disponible {
+  background: var(--color-verde, #2e9e5b);
+}
+
+.pocas {
+  background: #f5a623;
+  color: var(--color-tinta, #111827);
+}
+
+.agotado {
+  background: var(--color-rojo, #ff4757);
+}

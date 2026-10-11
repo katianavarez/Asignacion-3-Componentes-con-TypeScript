@@ -1,0 +1,33 @@
+:host {
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border: 1px solid var(--color-linea, #e5e7eb);
+  border-radius: var(--radio, 12px);
+  overflow: hidden;
+}
+
+th, td {
+  padding: 10px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--color-linea, #e5e7eb);
+}
+
+th {
+  background: var(--color-azul, #0066cc);
+  color: #fff;
+  font-weight: 600;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+.vacia {
+  text-align: center;
+  color: var(--color-tenue, #6b7280);
+}
